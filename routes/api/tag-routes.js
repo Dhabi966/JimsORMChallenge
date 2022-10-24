@@ -38,26 +38,6 @@ router.get("/:id", (req, res) => {
   })
     .then((tag) => res.status(200).json(tag))
     .catch((err) => res.status(404).json(err));
-  // Tag.findOne({
-  //   where: {
-  //     id: req.params.id,
-  //   },
-  //   include: [
-  //     {
-  //       model: Product,
-  //       attributes: ["id", "product_name", "price", "stock", "category_id"],
-  //     },
-  //   ],
-  // })
-  //   .then((dbTagData) => {
-  //     if (!dbTagData) {
-  //       res.status(404).json({ message: "Tag not found" });
-  //       return;
-  //     }
-  //     res.json(dbTagData);
-  //   })
-  //   .catch(err);
-  // res.status(500).json(err);
 });
 
 router.post("/", (req, res) => {
