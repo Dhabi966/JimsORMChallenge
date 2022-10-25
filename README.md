@@ -1,4 +1,4 @@
-# Jim's Employee Tracker
+# Jim's ORM Challenge 
 
 ## User Story
 
@@ -25,7 +25,9 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Walkthrough Video Link
 
+https://drive.google.com/file/d/1MwI29VUGSQj3MsHVs9YwPlR9hQE1sb2P/view
 
 
 
-Github Repo: https://github.com/Dhabi966/jimsemployeetracker
+
+Github Repo: https://github.com/Dhabi966/JimsORMChallenge
